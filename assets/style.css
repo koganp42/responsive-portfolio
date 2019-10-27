@@ -1,4 +1,10 @@
+body {
+    font-family: 'Aerial','Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("/Basic_Portfolio/Assets/images/interlaced.png");
+}
+
 #koganPic {
     height: 150px;
     width: 150px;
 }
+

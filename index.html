@@ -2,58 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Kogan's Responsive Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
-
-    <header>
-
-            <nav class="navbar navbar-default mb-4">
+    <header class="border-bottom border-secondary bg-white">
+        <div class="container align-items-end">
+            <nav class="navbar navbar-expand-lg navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <h1 class="navbar-text">Kogan Pack</h1>
-                        
+                        <h1 class="navbar-text bg-info text-light p-2 mt-3">Kogan Pack</h1>
                     </div>
-                        <ul class="nav navbar-nav pull-right">
-                            <li><a href="index.html">About Me</a></li>
-                            <li><a href="contacts.html">Contact Me</a></li>
-                            <li><a href="portfolio.html">My Portfolio</a></li>
+                    <!--Why isn't the next line working? I want the navs to align to the bottom or closer to the bottom-->
+                    <div class="align-items-end">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item active"><a href="index.html" class="nav-link text-muted">About Me</a></li>
+                            <li class="nav-item border-right border-left"><a href="contacts.html" class="nav-link text-muted">Contact Me</a></li>
+                            <li class="nav-item"><a href="portfolio.html" class="nav-link text-muted">My Portfolio</a></li>
                         </ul>
-                    
+                    </div>
                 </div>
-            </nav>
+            </nav>   
+        </div>
     </header>
-    
-    <div class="container">
-        <div class="innerContent">
-            <h2>About Me</h2>
+
+    <div class="container bg-white mt-3 p-3 ">
+        <div class="row border-bottom border-secondary pb">
+            <h2 class="col-12 text-info">About Me</h2>
+        </div>
+        <div class="row pt-2">
+            <div class="col-12">
+                <img src="Assets/images/Slack Photo.png" class="float-left" alt="Kogan Pack Photo" id="koganPic">
+                <p>
+                    Hi there! I'm originally from Nashville, TN, and I've lived here for most of my life. I'll just go ahead and come right out and say it: no, I do not enjoy country music. Shocking, I know. I do, however, enjoy most other kinds of music, binge watching cooking shows <span>(Looking at you, Great British Baking Show)</span>, and going out to bars with friends. Lately though I've been throwing myself head-first into learning web development.
+                </p>
                 <br>
-                <hr />
+                <p>
+                    Coding wasn't what I originally wanted to do: I have a bachelor's degree in English Literature from MTSU and I've been working since I graduated as a Legal Editor/Admin Assistant at the TN Dept. of Labor. I've found that isn't as fulfilling as I would like so, after a handful of my friends and former college classmates went through development bootcamps and had nothing but positive things to say, I became increasingly interested in the field.
+                </p>
                 <br>
-    
-                <img src="Assets/images/Slack Photo.jpg" alt="Kogan Pack Photo" id="koganPic">
-                <div class="container align-text-middle">
-                    <p>
-                        Hi there! I'm originally from Nashville, TN, and I've lived here for most of my life. I'll just go ahead and come right out and say it: no, I do not enjoy country music. Shocking, I know. I do, however, enjoy most other kinds of music, binge watching cooking shows <span>(Looking at you, Great British Baking Show)</span>, and going out to bars with friends. Lately though I've been throwing myself head-first into learning web development.
-                    </p>
-                    <br>
-                    <p>
-                        Coding wasn't what I originally wanted to do: I have a bachelor's degree in English Literature from MTSU and I've been working since I graduated as a Legal Editor/Admin Assistant at the TN Dept. of Labor. I've found that isn't as fulfilling as I would like so, after a handful of my friends and former college classmates went through development bootcamps and had nothing but positive things to say, I became increasingly interested in the field.
-                    </p>
-                    <br>
-                    <p>
-                        I knew about three years ago that I wanted to take the plunge, so to speak, and attend a coding bootcamp; however, life kept getting in the way (until now). I've been teaching myself in the meantime with resources like codeAcademy, Mark Myers' "A Smarter Way To Learn" books, and spending as much time on w3schools as I can. But now I'm finally doing the real thing, and this portfolio is the product of all of that work and determination. 
-                    </p>
-                </div>
+                <p>
+                    I knew about three years ago that I wanted to take the plunge, so to speak, and attend a coding bootcamp; however, life kept getting in the way (until now). I've been teaching myself in the meantime with resources like codeAcademy, Mark Myers' "A Smarter Way To Learn" books, and spending as much time on w3schools as I can. But now I'm finally doing the real thing, and this portfolio is the product of all of that work and determination. 
+                </p>
             </div>
         </div>
-    <footer class="page-footer font-small bg-info">
-        <h6 class="footer-copyright text-center py-3">&copy; Copyright 2019</h6>
-    </footer>
+    </div>
+
 </body>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
