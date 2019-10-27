@@ -13,3 +13,8 @@ body {
     border-color: teal !important;
 }
 
+.projectPic {
+    height: 180px;
+    width: 180px;
+}
+
