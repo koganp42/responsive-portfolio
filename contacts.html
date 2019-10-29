@@ -11,10 +11,10 @@
 <body>
     <header class="border-bottom border-secondary bg-white mb-3">
         <div class="container align-items-end">
-            <nav class="navbar navbar-expand-lg navbar-default">
+            <nav class="navbar navbar-expand-sm navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <h1 class="navbar-text bg-info text-light p-2 mt-3">Kogan Pack</h1>
+                        <h1 class="navbar-text bg-info text-light p-3 ml-md-n4">Kogan Pack</h1>
                     </div>
                     <!--Why isn't the next line working? I want the navs to align to the bottom or closer to the bottom-->
                     <div class="align-items-end">
@@ -29,38 +29,34 @@
         </div>
     </header>
 
-    <div>
-        <div class= "innerContent">
-    
-            <h2>Contact</h2>
-            <br>
-            <hr />
-            <br>
-
-            <div class="container">
-                    <form>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8">
+                <div class="container-fluid bg-white w-xs-100 mb-5 ml-auto flex-wrap">
+                    <div class="row">
+                        <h3 class="ml-4 pt-4 text-info">Contact Me</h2>
+                    </div>
+                    <hr />
+                    <form action="/action_page.php">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
+                            <label for="name">Name and Company:</label>
+                            <input type="name" class="form-control" id="name" placeholder="Bill G. of Microsoft">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="billy.g@outlook.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" rows="5" id="message"></textarea>
+                        </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
-                
+                </div>
             </div>
         </div>
-        
     </div>
-    
+
     <footer class="page-footer py-2 bg-dark border-top border-1">
         <div class="container-fluid text-center">
             <div class="footer-copyright font-small text-light">
@@ -72,5 +68,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
