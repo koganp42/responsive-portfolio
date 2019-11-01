@@ -9,21 +9,20 @@
 </head>
 
 <body>
-    <header class="border-bottom border-secondary bg-white mb-3">
-        <div class="container align-items-end">
-            <nav class="navbar navbar-expand-sm navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <h1 class="navbar-text bg-info text-light p-3 ml-md-n4">Kogan Pack</h1>
+    <header>
+        <!-- <div class="container-fluid"> -->
+            <nav class="row navbar navbar-expand-md navbar-default border-bottom border-secondary bg-white mb-3 p-0 flex-wrap">
+                <!--<div class="container-fluid">-->
+                    <div class="navbar-brand col-12 col-sm-6 p-0 m-0">
+                        <h2 class="bg-info text-light p-3 text-center d-sm-inline-flex ml-sm-5 mb-0">Kogan Pack</h2>
                     </div>
-                    <!--Why isn't the next line working? I want the navs to align to the bottom or closer to the bottom-->
-                    <div class="align-items-end">
-                        <ul class="nav navbar-nav">
+                    <!--<div class="align-items-end">-->
+                        <ul class="nav navbar-nav ml-auto justify-content-sm-end justify-content-center flex-row col-12 col-sm-6">
                             <li class="nav-item active"><a href="index.html" class="nav-link text-muted">About Me</a></li>
-                            <li class="nav-item border-right border-left"><a href="contacts.html" class="nav-link text-muted">Contact Me</a></li>
+                            <li class="nav-item border-right border-left px-1 mx-2"><a href="contacts.html" class="nav-link text-muted">Contact Me</a></li>
                             <li class="nav-item"><a href="portfolio.html" class="nav-link text-muted">My Portfolio</a></li>
                         </ul>
-                    </div>
+                    <!--</div>-->
                 </div>
             </nav>   
         </div>
@@ -50,7 +49,7 @@
                             <label for="message">Message:</label>
                             <textarea class="form-control" rows="5" id="message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary mb-3">Submit</button>
                     </form>
                 </div>
             </div>
